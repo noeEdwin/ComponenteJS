@@ -16,6 +16,8 @@ INSTITUTO TECNOLÓGICO DE OAXACA
 
 **Fecha de entrega:** 05 de julio del 2026
 
+**Enlace al video:** https://youtu.be/Wfn8lI5g2k0
+
 ---
 
 # Carrusel de Imagenes — Componente Visual JavaScript Reutilizable
