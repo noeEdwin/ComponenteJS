@@ -14,7 +14,7 @@ INSTITUTO TECNOLÓGICO DE OAXACA
 
 **Hora:** 10:00 - 1:00
 
-**Fecha de entrega:** 04 de julio del 2026
+**Fecha de entrega:** 05 de julio del 2026
 
 ---
 
