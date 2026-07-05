@@ -22,9 +22,9 @@ INSTITUTO TECNOLÓGICO DE OAXACA
 
 ---
 
-## ¿Qué es?
+## ¿Qué problema resuelve?
 
-El **carrusel de imágenes** es un componente visual interactivo que permite mostrar varias imágenes en un espacio reducido, navegando entre ellas con flechas o indicadores (dots). Es un patrón muy común en sitios web: se usa en portadas, galerías, promociones, etc.
+El **carrusel de imágenes** es un componente visual interactivo que permite mostrar varias imágenes en un espacio reducido, navegando entre ellas con flechas o indicadores (dots). Es un patrón muy común en sitios web: se usa en portadas, galerías, promociones, etc. Entonces si es algo que se usa en el dia a dia y casi siempre lo vamos a poder observar, ¿Por qué no una implementación que nos permita reutilizar?
 
 **Carrusel** resuelve esto ofreciendo una función pura de JavaScript que puede incluirse en cualquier página web para:
 
@@ -236,83 +236,6 @@ for (var k = 0; k < dots.length; k++) {
 }
 dots[indiceActual].classList.add("carrusel-dot-activo");
 ```
-
----
-
-## Integración en el Proyecto
-
-### HTML mínimo necesario
-
-```html
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Carrusel</title>
-    <link rel="stylesheet" href="css/componente.css">
-</head>
-<body>
-    <h1>Mi Galería de Imágenes</h1>
-
-    <!-- Contenedor vacío donde se inserta el carrusel -->
-    <div id="miCarrusel"></div>
-
-    <script src="js/componente.js"></script>
-    <script>
-        CrearCarrusel("miCarrusel", [
-            "img/img1.jpg",
-            "img/img2.jpg",
-            "img/img3.jpg",
-            "img/img4.jpg"
-        ], { autoplay: true, velocidad: 3000 });
-    </script>
-</body>
-</html>
-```
-
----
-
-### CSS personalizado (opcional)
-
-Si quieres cambiar los colores o tamaños, puedes sobreescribir las clases en tu propio CSS:
-
-```css
-/* Cambiar color de las flechas */
-.carrusel-flecha {
-    background-color: rgba(0, 100, 200, 0.7);
-}
-
-/* Cambiar tamaño de las imágenes */
-.carrusel-fila img {
-    height: 500px;
-}
-
-/* Cambiar color de los dots */
-.carrusel-dot {
-    background-color: rgba(255, 255, 255, 0.4);
-}
-
-.carrusel-dot-activo {
-    background-color: #007bff;
-}
-```
-
----
-
-## Diseño Responsivo
-
-El carrusel se adapta automáticamente a diferentes tamaños de pantalla:
-
-| Dispositivo | Ancho | Altura de imagen | Tamaño flechas |
-|-------------|-------|------------------|----------------|
-| Desktop | 700px max | 400px | 45px |
-| Tablet | 100% | 300px | 38px |
-| Celular | 100% | 200px | 32px |
-
-No se necesita configuración adicional. El CSS usa `@media queries` para ajustar automáticamente.
-
----
 
 ## Tecnologías
 
