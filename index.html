@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrusel de Imagenes - Componente Reutilizable</title>
+    <link rel="stylesheet" href="css/componente.css">
+</head>
+<body>
+    <h1>Carrusel de Imagenes</h1>
+    <p class="descripcion">Use las flechas o los dots para moverse.</p>
+
+    <div id="miCarrusel"></div>
+
+    <script src="js/componente.js"></script>
+    <script>
+        CrearCarrusel("miCarrusel", [
+            "img/img1.jpg",
+            "img/img2.jpg",
+            "img/img3.jpg",
+            "img/img4.jpg"
+        ], { autoplay: true, velocidad: 2000 });
+    </script>
+</body>
+</html>
