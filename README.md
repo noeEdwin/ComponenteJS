@@ -18,6 +18,8 @@ INSTITUTO TECNOLÓGICO DE OAXACA
 
 **Enlace al video:** https://youtu.be/Wfn8lI5g2k0
 
+**Enlace a la pagina:** https://noeedwin.github.io/ComponenteJS/
+
 ---
 
 # Carrusel de Imagenes — Componente Visual JavaScript Reutilizable
