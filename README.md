@@ -50,7 +50,9 @@ componentJS/
     ├── img1.jpg
     ├── img2.jpg
     ├── img3.jpg
-    └── img4.jpg
+    ├── img4.jpg
+    ├── carruselPC.png      ← Captura en escritorio
+    └── carruselMobile.jpeg ← Captura en móvil
 ```
 
 ---
@@ -236,6 +238,24 @@ for (var k = 0; k < dots.length; k++) {
 }
 dots[indiceActual].classList.add("carrusel-dot-activo");
 ```
+
+## Capturas de Pantalla — Componente en Funcionamiento
+
+### Carrusel en PC (escritorio)
+
+![Carrusel en PC](img/carruselPC.png)
+
+Se muestra el carrusel en pantalla completa con las flechas de navegación a los lados y los dots indicadores centrados abajo.
+
+---
+
+### Carrusel en Móvil (responsivo)
+
+![Carrusel en Móvil](img/carruselMobile.jpeg)
+
+En dispositivos móviles, el carrusel se adapta automáticamente: los dots se ajustan para ser fácilmente tocables con el dedo
+
+---
 
 ## Tecnologías
 
